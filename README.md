@@ -1,1 +1,1 @@
-# Pratice_HTML
+# Practice_HTML
