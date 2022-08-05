@@ -14,9 +14,22 @@ __절대경로__
 http(https) : 원격
 /(//)
 
-### 원래 있던 css reset하기
+### #원래 있던 css reset하기
 https://www.jsdelivr.com/package/npm/reset-css
  ```
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 ```
 
+### #Emmet 문법
+```
+div>ul>li*4{&}
+
+<div>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+  </div>
+```
