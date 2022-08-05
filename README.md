@@ -35,7 +35,7 @@ div>ul>li*4{&}
 ```
 
 ### #태그 이름
-<태그 __class="이름"__></태그> - 요소를 지칭하는 중복 가능한 이름
-<span style="color:red">css에서 class는 . </span>
-<태그 __id="이름"__></태그> - 요소를 지칭하는 고유한 이름
-<span style="color:red">css에서 id는 # </span>
+<태그 __class="이름"__></태그> - 요소를 지칭하는 중복 가능한 이름<br/>
+<span style="color:red">css에서 class는 . </span><br/>
+<태그 __id="이름"__></태그> - 요소를 지칭하는 고유한 이름<br/>
+<span style="color:red">css에서 id는 # </span><br/>
