@@ -205,4 +205,31 @@ input:focus{
 	color:red;
 }
 ```
+### #가상 요소 선택자
+1️⃣before<br/>
+선택자 요소의 내부 앞에 내용을 삽입.
+```
+<div class="box">content!</div>
+
+.box::before {
+	content : "앞!"
+}  //앞! Content! 출력됨.
+```
+
+2️⃣after<br/>
+선택자 요소의 내부 뒤에 내용을 삽입.
+```
+<div class="box">content!</div>
+
+.box::after {
+	content : "뒤!"
+}  //Content! 뒤! 출력됨.
+```
+
+### #속성 선택자
+1️⃣attr __[ABC]__<br/>
+속성ABC을 포함한 요소 선택
+
+2️⃣attr=value __[ABC="XYZ"]__<br/>
+속성ABC를 포함하고 값이 XYZ인 요소 선택
 
