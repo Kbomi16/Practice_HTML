@@ -233,3 +233,17 @@ input:focus{
 2️⃣attr=value __[ABC="XYZ"]__<br/>
 속성ABC를 포함하고 값이 XYZ인 요소 선택
 
+### #CSS 단위
+- px : 픽셀
+- % : 상대적 백분율
+- em : 요소의 글꼴 크기
+- rem : 루트 요소의 글꼴 크기
+- vw : 뷰포트 가로 너비의 백분율
+- vh : 뷰포트 세로 너비의 백분율
+
+
+### #border : 선-두께(border-width) 선(border-style)-종류 선-색상(border-color);
+
+### #box-sizing
+- content-box : 요소의 내용으로 크기 계산
+- border-box : 요소의 내용 + padding + border로 크기 계산
