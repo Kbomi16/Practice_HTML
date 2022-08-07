@@ -247,3 +247,97 @@ input:focus{
 ### #box-sizing
 - content-box : 요소의 내용으로 크기 계산
 - border-box : 요소의 내용 + padding + border로 크기 계산
+
+### #overflow
+요소의 크기 이상으로 내용이 넘쳤을 때, 보여짐을 제어하는 단축 속성
+- visible : 넘친 내용을 그대로 보여줌.(기본값)
+- hidden : 넘친 내용을 잘라냄.
+- scroll : 넘친 내용을 잘라냄. 스크롤바 생성
+- auto : 넘친 내용이 있는 경우에만 자르고 스크롤바 생성
+
+### #display
+요소의 화면 출력 특성
+- block : 상자 요소(span은 인라인이지만 block을 통해 너비와 높이를 줄 수 있음.)
+- inline : 글자 요소
+- inline-block : 글자 + 상자 요소
+- flex : 1차원 레이아웃
+- grid : 2차원  레이아웃
+- none : 보여짐 특성 없음. 화면에서 사라짐
+- 기타 : table, table-row, table-cell 등
+
+### #opacity
+요소 투명도
+- 1 : 불투명(기본값)
+- 0~1 : 0부터 1사이의 소수점 숫자
+
+### #글꼴
+1️⃣font-style
+글자의 기울기
+- normal : 기울기 없음
+- italic : 이텔릭체
+- oblique : 기울어진 글자
+
+2️⃣font-weight
+글자의 두께
+- normal, 400 : 기본 두께
+- bold, 700 : 두껍게
+- 100~900
+- bolder : 상위 요소보다 더 두껍게
+- lighter : 상위 요소보다 더 얇게
+
+3️⃣font-size
+글자의 크기
+- 16px(r기본값)
+- 단위 : px, em, rem 등
+
+4️⃣line-height
+한 줄의 높이
+- 숫자 : 요소의 글꼴 크기의 배수로 지정
+- 단위 : px, em, rem 등
+
+5️⃣font-family : 글꼴1, 글꼴2 .... 글꼴계열;
+__띄어쓰기 등 특수문자가 포함된 글꼴은 큰 따옴표로 묶기__
+
+### #문자
+1️⃣text-align
+텍스트 수평 정렬
+
+2️⃣text-decoration
+- none : 없음
+- underline : 밑줄
+- overline : 윗줄
+- line-through : 중앙 선
+
+3️⃣text-indent
+문자 첫 줄의 들여쓰기
+- 0 : 들여쓰기 없음(기본값)
+
+### #배경
+1️⃣background-color
+- transparent : 투명함
+- 색상 : 지정 가능한 색상
+
+2️⃣background-image
+- none : 이미지 없음
+- url("경로")
+
+3️⃣background-repeat
+- repeat : 이미지를 수직, 수평 반복
+- repeat-x : 수평 반복
+- repeat-y : 수직 반복
+- no-repeat : 반복 없음
+
+4️⃣background-position
+- 0%, 0%
+- 방향 : top, bottom, left, right, center
+- 단위 : x, y축 px, em, rem
+
+5️⃣background-size
+- auto : 이미지의 실제 크기
+- cover : 비율유지, 요소의 더 넓은 너비에 맞춤
+- contain : 비율유지, 요소의 더 짧은 너비에 맞춤
+
+6️⃣background-attachment
+- scroll : 이미지가 요소를 따라서 같이 스크롤
+- fixed : 이미지가 뷰포트에 고정, 스크롤X
+
