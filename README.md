@@ -413,3 +413,35 @@ Flex Item의 감소 너비 비율
 Flex Item의 공간 배분 전 기본 너비
 - auto : 요소의 Content 너비
 
+### #전환
+transition : 속석명 지속시간 타이밍함수 대기시간;<br/>
+요소의 전환(시작과 끝) 효과를 지정하는 단축속성
+
+✔️ transition-property<br/>
+전환 효과를 사용할 속성 이름 지정
+- all : 모든 속성에 적용
+- 속성이름 : 전환 효과를 사용할 속성 이름 명시
+
+✔️ transition-duration<br/>
+전환 효과의 지속시간 지정
+- 0s : 전환 효과 없음
+- 시간 : 지속시작 지정
+
+✔️ transition-timing-fuction<br/>
+전환 효과의 타이밍 함수 지정
+- ease : 느빠느
+- linear : 일정
+- ease-in : 느빠
+- ease-out : 빠느
+- ease-in-out : 느빠느
+-steps(n) : n번 분활된 애니메이션
+
+✏️ https://easings.net/ko
+✏️ https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
+✏️ https://greensock.com/docs/v2/Easing
+
+
+✔️ transition-delay<br/>
+전환 효과가 몇 초 뒤에 시작할지 대기시간 지정
+- 0s : 전환 효과 없음
+- 시간 : 대기시작 지정
