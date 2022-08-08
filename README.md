@@ -436,9 +436,9 @@ transition : 속석명 지속시간 타이밍함수 대기시간;<br/>
 - ease-in-out : 느빠느
 -steps(n) : n번 분활된 애니메이션
 
-✏️ https://easings.net/ko
-✏️ https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
-✏️ https://greensock.com/docs/v2/Easing
+✏️ https://easings.net/ko<br/>
+✏️ https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function<br/>
+✏️ https://greensock.com/docs/v2/Easing<br/>
 
 
 ✔️ transition-delay<br/>
