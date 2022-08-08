@@ -341,3 +341,75 @@ __띄어쓰기 등 특수문자가 포함된 글꼴은 큰 따옴표로 묶기__
 - scroll : 이미지가 요소를 따라서 같이 스크롤
 - fixed : 이미지가 뷰포트에 고정, 스크롤X
 
+### #배치
+✔️ position<br/>
+요소의 위치 지정기준
+- static : 기준 없음
+- relative : 요소 자신을 기준
+- absolute : 위치 상 부모 요소를 기준
+- fixed : 뷰포트를 기준
+✏️position 속성 값으로 absolute, fixed가 지정된 요소는 display 속성이 block으로 바뀜.
+
+✔️ z-index<br/>
+요소의 쌓임 정도를 지정
+- auto : 부모 요소와 동일한 쌓임 정도
+- 숫자가 높을 수록 위에 쌓임
+
+### #플렉스(정렬) : 1차원 레이아웃
+✔️ display<br/>
+Flex Container의 화면 출력 특성
+- flex : 블록 요소와 같이 Flex Container 정의
+- inline-flex : 인라인 요소와 같이 Flex Container 정의
+
+✔️ flex-direction<br/>
+주 축을 설정
+- row : 행 축(좌 => 우) 수평
+- row-reverse : 행 축(우 => 좌) 수평
+- column : 열 축(위 => 아래) 수직
+- column-reverse : 열 축(아래 => 위) 수직
+
+✔️ flex-wrap<br/>
+Flex Items 묶음(줄 바꿈) 여부
+- nowrap : 묶음(줄 바꿈) 없음
+- wrap : 여러 줄로 묶음
+
+✔️ justify-content<br/>
+주 축의 정렬 방법(수평 정렬)
+- flex-start : Flex Items를 시작점으로 정렬
+- flex-end : Flex Items를 끝점으로 정렬
+- flex-center : Flex Items를 가운데 정렬
+
+✔️ align-content<br/>
+교차 축의 __여러 줄__ 정렬 방법
+- stretch : Flex Items를 시작점으로 정렬
+- flex-start : Flex Items를 시작점으로 정렬
+- flex-end : Flex Items를 끝점으로 정렬
+- flex-center : Flex Items를 가운데 정렬
+
+✔️ align-items<br/>
+교차 축의 한 줄 정렬 방법
+- stretch : Flex Items를 교차축으로 늘림
+- flex-start : Flex Items를 각 줄의 시작점으로 정렬
+- flex-end : Flex Items를 각 줄의 끝점으로 정렬
+- flex-center : Flex Items를 각 줄의 가운데 정렬
+
+### #플렉스 Items
+✔️ order<br/>
+Flex Item 순서
+- 0 : 숫자 없음
+- 숫자가 작을 수록 먼저
+
+✔️ flex-grow<br/>
+Flex Item의 증가 너비 비율
+- 0 : 증가 비율 없음
+- 숫자 : 증가 비율
+
+✔️ flex-shrink<br/>
+Flex Item의 감소 너비 비율
+- 1 : Flex Container 너비에 따라 감소 비율 적용
+- 숫자 : 감소 비율
+
+✔️ flex-basis<br/>
+Flex Item의 공간 배분 전 기본 너비
+- auto : 요소의 Content 너비
+
