@@ -3,7 +3,7 @@
 ### #클래스 선택자
 1️⃣일치 선택자, 복합<br/>
 선택자를 동신에 만족하는 요소 선택
-```
+```html
 <span class="orange"></span>
 
 span.orange {
@@ -13,7 +13,7 @@ span.orange {
 
 2️⃣자식 선택자, 복합<br/>
 선택자의 자식 요소 선택
-```
+```html
 <ul>
 	<li class="orange"></li>
 </ul>
@@ -25,7 +25,7 @@ ul>.orange{
 
 3️⃣하위(후손) 선택자, 복합<br/>
 선택자의 하위 요소 선택. '띄어쓰기'가 기호임.
-```
+```html
 <div>
 	<ul>
 		<li class="orange"></li>
@@ -39,7 +39,7 @@ div .orange{
 
 4️⃣인접 형제 선택자, 복합<br/>
 선택자의 다음 형제 요소 중 하나 선택
-```
+```html
 <ul>
 	<li>딸기</li>
 	<li class="orange"></li>
@@ -55,7 +55,7 @@ div .orange{
 5️⃣일반 형제 선택자, 복합<br/>
 선택자의 다음 형제 요소 모두 선택
 
-```
+```html
 <ul>
 	<li>딸기</li>
 	<li class="orange"></li>
@@ -77,7 +77,7 @@ div .orange{
 
 3️⃣focus<br/>
 선택자 요소가 포커스되면 선택
-```
+```html
 input:focus{
 	background-color:orange //input칸을 선택하면 배경이 오렌지색으로 바뀜.
 }
@@ -85,7 +85,7 @@ input:focus{
 
 4️⃣first child<br/>
 선택자가 형제 요소 중 첫째라면 선택
-```
+```html
 <div class="fruits">
 	<span>딸기</span>  //이 문장만 출력됨.
 	<span>사과</span>
@@ -99,7 +99,7 @@ input:focus{
 
 5️⃣last child<br/>
 선택자가 형제 요소 중 막내라면 선택
-```
+```html
 <div class="fruits">
 	<span>딸기</span>  
 	<span>사과</span>
@@ -113,7 +113,7 @@ input:focus{
 
 6️⃣nth child<br/>
 선택자가 형제 요소 중 n번째라면 선택
-```
+```html
 <div class="fruits">
 	<span>딸기</span>  
 	<span>사과</span>  //이 문장만 출력됨.
@@ -125,7 +125,7 @@ input:focus{
 }
 ```
 
-```
+```html
 <div class="fruits">
 	<span>딸기</span>  
 	<span>사과</span>  //이 문장만 출력됨.
@@ -143,7 +143,7 @@ input:focus{
 
 7️⃣not 부정선택자<br/>
 선택자가 아닌 다른 요소 선택
-```
+```html
 <div class="fruits">
 	<span>딸기</span>  
 	<span>사과</span>  
@@ -159,7 +159,7 @@ input:focus{
 ### #가상 요소 선택자
 1️⃣before<br/>
 선택자 요소의 내부 앞에 내용을 삽입.
-```
+```html
 <div class="box">content!</div>
 
 .box::before {
@@ -169,7 +169,7 @@ input:focus{
 
 2️⃣after<br/>
 선택자 요소의 내부 뒤에 내용을 삽입.
-```
+```html
 <div class="box">content!</div>
 
 .box::after {
