@@ -51,5 +51,7 @@ CSS문서 안에서 또 다른 CSS문서를 가져와 연결하는 방식
 
 
 ### 🐻 material icon
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+```
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+```
 
